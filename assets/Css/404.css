@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto:wght@400;500;700;900&display=swap');
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #96192B;
+    height: 80%;
+}
+
+.box-404 {
+    width: 100%;
+}
+
+.landing-img {
+    text-align: center;
+    margin-top: 3%;
+}
+
+.landing-img img {
+    width: 40vw;
+}
+
+.title h1 {
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    font-family: "Abril Fatface";
+    font-weight: 200;
+}
+
+.paragraph p {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: "Abril Fatface";
+    font-weight: 200;
+    margin-top: -2%;
+}
+
+.contact-p p {
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-family: "calibri";
+    font-weight: 200;
+    margin-top: 2%;
+}
+
+hr {
+    width: 600px;
+    color: rgb(255, 255, 255);
+}

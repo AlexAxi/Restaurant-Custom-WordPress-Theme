@@ -1,0 +1,1460 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+html {
+    background-color: #141414;
+}
+
+h1 {
+    font-family: "Abril Fatface";
+    font-weight: 400;
+}
+
+.mmm {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    overflow-anchor: none;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    z-index: -5;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    background-image: url("../Images/our-menus-hero-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+}
+
+.hero-h1 {
+    font-size: 2.5em;
+}
+
+.hero-text {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-p {
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+
+/* MAIN MENU NAVIGATION */
+
+.main-menu-nav-div {
+    width: 100%;
+    height: 5rem;
+    display: flex;
+}
+
+#see {
+    margin: 0 auto;
+    top: 140%;
+    position: absolute;
+}
+
+.menu-nav-btn {
+    width: 50%;
+    background-color: #96192B;
+    cursor: pointer;
+    text-decoration: none;
+    overflow-anchor: none;
+}
+
+.menu-nav-btn:hover {
+    background-color: white;
+}
+
+.menu-nav-btn:hover>div>.menu-nav-p {
+    color: #96192B;
+}
+
+
+/* .menu-nav-btn:active {
+    background-color: white;
+}
+
+.menu-nav-btn:active>div>.menu-nav-p {
+    color: #96192B;
+} */
+
+.monthly-menu-nav-btn {
+    width: 50%;
+    background-color: #96192B;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.monthly-menu-nav-btn:hover {
+    background-color: white;
+}
+
+.monthly-menu-nav-btn:hover>div>.monthly-menu-nav-p {
+    color: #96192B;
+}
+
+
+/* .monthly-menu-nav-btn:active {
+    background-color: white;
+} */
+
+.active-bg {
+    background-color: white;
+}
+
+.active-cl {
+    color: #96192B !important;
+}
+
+.menu-main-nav {
+    position: relative;
+    transform: translateY(50%);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.menu-nav-p {
+    color: white;
+}
+
+.monthly-menu-nav-p {
+    color: white;
+}
+
+
+/* MENU */
+
+.menu-wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.menu-h1 {
+    text-align: center;
+    padding: 2em;
+    color: white;
+}
+
+.nav-menu {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5em;
+}
+
+.nav-menu-item {
+    cursor: pointer;
+}
+
+.nav-menu-img {
+    height: 50px;
+}
+
+.nav-menu-p {
+    font-family: sans-serif;
+    font-weight: bolder;
+    color: #fff;
+    text-align: center;
+}
+
+.nav-menu-item:hover>div>p {
+    color: #96192B;
+}
+
+.nav-menu-item:active>div>p {
+    color: #96192B;
+}
+
+.activate {
+    display: block;
+}
+
+.deactivate {
+    display: none;
+}
+
+.active-p {
+    color: #96192B !important;
+}
+
+.active-fill {
+    fill: #96192B;
+    stroke: #96192B;
+}
+
+.nav-menu-item:hover>div>.nav-menu-img>path {
+    fill: #96192B;
+    stroke: #96192B;
+}
+
+.nav-menu-item:active>.nav-menu-img>path {
+    fill: #96192B;
+    stroke: #96192B;
+}
+
+.add-2 {
+    /* margin-left: -1em; */
+    text-align: center;
+}
+
+.add-3 {
+    margin-left: -.5em;
+}
+
+.add-4 {
+    margin-left: -.3em;
+}
+
+.add-5 {
+    margin-left: -.3em;
+}
+
+.add-6 {
+    /* margin-left: .3em; */
+}
+
+.nav-menu-hr {
+    width: 100%;
+    color: white;
+    height: 2px;
+    background-color: white;
+    border: none;
+}
+
+
+/*  CONTENT MENU */
+
+
+/* .ccc {
+    margin-left: 4em;
+} */
+
+.content-menu-wrapper {
+    margin: 0 auto;
+    margin-top: 5em;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 4%;
+}
+
+.prectivated-starters {
+    display: grid;
+}
+
+.menu-item {
+    display: flex;
+    gap: 2em;
+    margin-bottom: 1em;
+}
+
+.dish-img {
+    width: 12em;
+    height: 8em;
+    border-radius: 3px;
+}
+
+.wine-img {
+    height: 13em;
+}
+
+.dish-text {
+    width: 25em;
+}
+
+.dish-text-wine {
+    width: 21em;
+}
+
+.dish-name {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.dish-price-wrap {
+    display: flex;
+}
+
+.dots {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+}
+
+.dish-price {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.price-wines-wrap {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.price-wine {
+    width: 19.5%;
+    margin-top: 4%;
+}
+
+
+/* MONTHLY MENU */
+
+.monthly-menu-wrapper {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.total-price {
+    margin: 0 auto;
+    width: 90%;
+    color: white;
+}
+
+
+/* CONTENT MONTHLY MENU */
+
+.add-wrapper-mm {
+    column-gap: 16.5%;
+    margin-bottom: 2em;
+}
+
+.monthly-menu-item {
+    width: 32em;
+    margin-bottom: 3em;
+}
+
+.monthly-dish-img {
+    width: 100%;
+    height: 20em;
+    border-radius: 3%;
+}
+
+.title-price-wrap {
+    display: flex;
+    width: 100%;
+}
+
+.dish-category {
+    color: white;
+}
+
+.dots-m {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    padding-top: .5em;
+    font-weight: bold;
+}
+
+.dish-price-m {
+    font-family: sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: .5em;
+}
+
+.dish-desc {
+    font-family: sans-serif;
+    width: 100%;
+    color: white;
+    margin-top: -.5em;
+}
+
+
+/* <!-- RESERVE BTN --> */
+
+.reserve-btn {
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    width: 11%;
+}
+
+@media only screen and (max-width: 1441px) {
+    /* HERO SECTION */
+    .hero {
+        margin-top: -.5rem;
+    }
+    #see {
+        margin: 0 auto;
+        top: 160%;
+        position: absolute;
+    }
+    /* MENU */
+    .nav-menu {
+        gap: 8%;
+    }
+    .nav-menu-hr {
+        width: 100%;
+    }
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 5em;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4%;
+    }
+    .price-wines-wrap {
+        width: 95%;
+        margin: 0 auto;
+    }
+    /* MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 17%;
+    }
+    .total-price {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 1324px) {
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 5em;
+        width: 95%;
+        column-gap: 11%;
+    }
+    .menu-item {
+        display: flex;
+        gap: 2em;
+    }
+    .dish-img {
+        width: 10em;
+        height: 7em;
+        border-radius: 3px;
+    }
+    .wine-img {
+        height: 14em;
+    }
+    .dish-text-wine {
+        width: 15em;
+    }
+    .dish-text {
+        width: 15em;
+        margin-top: -.7em;
+    }
+    .dish-name {
+        font-size: 16px;
+    }
+    .dots {
+        display: none;
+    }
+    .dish-price::before {
+        content: "..................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 17%;
+        margin-bottom: 2em;
+    }
+    .monthly-menu-item {
+        width: 25em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 15em;
+    }
+    .title-price-wrap {
+        display: flex;
+        width: 100%;
+    }
+    .dish-category {
+        color: white;
+    }
+    .dots-m {
+        display: none;
+    }
+    .dish-price-m::before {
+        content: "....................................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .dish-price-m {
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: .5em;
+    }
+    .dish-desc {
+        width: 100%;
+        color: white;
+        margin-top: -.5em;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        width: 14%;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    /* HERO SECTION */
+    .hero {
+        margin-top: -.7rem;
+        height: 35vh;
+    }
+    #see {
+        margin: 0 auto;
+        top: 110%;
+        position: absolute;
+    }
+    /* MENU */
+    .menu-h1 {
+        padding: 1.5em;
+    }
+    .nav-menu {
+        gap: 6%;
+    }
+    .nav-menu-img {
+        height: 40px;
+    }
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 5em;
+        width: 95%;
+        column-gap: 2%;
+    }
+    .menu-item {
+        display: flex;
+        gap: 2em;
+    }
+    .dish-img {
+        width: 10em;
+        height: 7em;
+        border-radius: 3px;
+    }
+    .wine-img {
+        height: 13em;
+    }
+    .dish-text {
+        width: 15em;
+        margin-top: -.7em;
+    }
+    .dish-name {
+        font-size: 16px;
+    }
+    .dots {
+        display: none;
+    }
+    .dish-price::before {
+        content: "..................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+    .price-lux-adj {
+        width: 26%;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 9%;
+        margin-bottom: 2em;
+    }
+    .monthly-menu-item {
+        width: 25em;
+        margin-bottom: 2em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 15em;
+    }
+    .title-price-wrap {
+        display: flex;
+        width: 100%;
+    }
+    .dish-category {
+        color: white;
+    }
+    .dots-m {
+        display: none;
+    }
+    .dish-price-m::before {
+        content: "....................................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .dish-price-m {
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        padding-top: .5em;
+    }
+    .dish-desc {
+        width: 100%;
+        color: white;
+        margin-top: -.5em;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        width: 14%;
+    }
+}
+
+@media only screen and (max-width: 927px) {
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 3em;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 8%;
+    }
+    .menu-item {
+        display: flex;
+        gap: 2em;
+    }
+    .dish-img {
+        width: 7em;
+        height: 5em;
+        border-radius: 3px;
+    }
+    .wine-img {
+        height: 14em;
+    }
+    .dish-text {
+        width: 12em;
+        margin-left: -1em;
+    }
+    .dish-name {
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    .dish-price-wrap {
+        display: flex;
+        margin-top: -.5em;
+    }
+    .dots {
+        display: none;
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+    .dish-price {
+        font-family: sans-serif;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .dish-price::before {
+        content: ".......................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 94%;
+    }
+    .total-price {
+        width: 95%;
+        font-size: 1.3em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 6%;
+        margin-bottom: 1em;
+    }
+    .monthly-menu-item {
+        width: 20em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 13em;
+        border-radius: 3%;
+    }
+    .dish-price-m::before {
+        content: "...............................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        width: 18%;
+    }
+}
+
+@media only screen and (max-width: 901px) {
+    /* MENU */
+    .nav-menu {
+        /* gap: 4em; */
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    /* HERO SECTION */
+    .hero {
+        margin-top: 3em;
+        height: 30vh;
+    }
+    /* MENU */
+    .menu-h1 {
+        padding-top: 1em;
+    }
+    .menu-wrapper {
+        width: 94%;
+    }
+    .nav-menu {
+        gap: 3%;
+    }
+    .nav-menu-img {
+        height: 35px;
+    }
+    .nav-menu-p {
+        padding-top: .6em;
+        font-size: 14px;
+        margin-top: .1em;
+    }
+    .add-1 {
+        text-align: center;
+    }
+    .add-2 {
+        /* margin-left: -.5em; */
+    }
+    .add-3 {
+        /* margin-left: -.6em; */
+    }
+    .add-4 {
+        text-align: center;
+    }
+    .add-5 {
+        /* margin-left: -.9em; */
+    }
+    .add-6 {
+        /* margin-left: .5em; */
+    }
+    .nav-menu-hr {
+        width: 100%;
+    }
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 3em;
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4%;
+    }
+    .menu-item {
+        display: flex;
+        gap: 2em;
+    }
+    .dish-img {
+        width: 7em;
+        height: 5em;
+        border-radius: 3px;
+    }
+    .wine-img {
+        height: 13em;
+    }
+    .dish-text {
+        width: 12em;
+        margin-left: -1em;
+    }
+    .dish-name {
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    .dish-price-wrap {
+        display: flex;
+        margin-top: -.5em;
+    }
+    .dots {
+        display: none;
+        font-family: sans-serif;
+        color: white;
+        font-size: 18px;
+    }
+    .dish-price {
+        font-family: sans-serif;
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .dish-price::before {
+        content: ".......................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    .price-lux-adj {
+        width: 41%;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 94%;
+    }
+    .total-price {
+        width: 95%;
+        font-size: 1.3em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 6%;
+        margin-bottom: 1em;
+    }
+    .monthly-menu-item {
+        width: 20em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 13em;
+        border-radius: 2%;
+    }
+    .dish-price-m::before {
+        content: "...............................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        width: 20%;
+    }
+    /*Adjustments for dinamic main course*/
+    .menu-item-adj {
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-menu-wrapper-adj {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .dish-img-adj {
+        height: 14em;
+    }
+    .dish-img-adj {
+        width: 46%;
+        height: 20vh;
+        border-radius: 3px;
+    }
+    .dish-text-adj {
+        width: 51%;
+        margin-left: -1em;
+    }
+    .dish-name-adj {
+        margin-top: 23px !important;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 2em;
+        width: 95%;
+        display: block;
+    }
+    .prectivated-starters {
+        display: block;
+    }
+    .menu-item {
+        display: flex;
+        margin-bottom: 1em;
+    }
+    .dish-text {
+        width: 18em;
+        margin-left: -1em;
+    }
+    .dish-price::before {
+        content: ".......................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    .price-wine {
+        width: 20%;
+        margin-top: 4%;
+    }
+    .price-lux-adj {
+        width: 48%;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 94%;
+    }
+    .total-price {
+        width: 95%;
+        font-size: 1.3em;
+        margin-top: -1.2em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 5%;
+        margin-bottom: 2em;
+    }
+    .monthly-menu-item {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 15em;
+    }
+    .dish-price-m::before {
+        content: "..............................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        width: 32%;
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    #see {
+        margin: 0 auto;
+        top: 105%;
+        position: absolute;
+    }
+    .nav-menu {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 2.4%;
+        grid-row-gap: 11%;
+        align-content: center;
+    }
+    .nav-menu-item {
+        cursor: pointer;
+        text-align: center;
+        border: 1px solid white;
+        padding: 3px;
+    }
+    .nav-menu-img {
+        margin-top: .5em;
+    }
+    .add-3 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .add-4 {
+        margin-left: 0;
+    }
+    .add-5 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .add-6 {
+        margin-left: 0;
+        text-align: center;
+    }
+    .nav-menu-p {
+        margin-bottom: .5em;
+    }
+    .nav-menu-hr {
+        margin-top: 1.5em;
+    }
+    .price-wine {
+        width: 25%;
+        margin-top: 16%;
+    }
+    .hr-wine-adj {
+        margin-top: .5em;
+    }
+    .price-lux-adj {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    /* HERO SECTION */
+    #see {
+        margin-top: 0;
+        top: 98%;
+        position: absolute;
+    }
+    .hero {
+        margin-top: 2em;
+        height: 25vh;
+    }
+    .hero-text {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .hero-p {
+        font-size: 16px;
+    }
+    /* MAIN MENU NAVIGATION */
+    .main-menu-nav-div {
+        height: 3rem;
+    }
+    .menu-main-nav {
+        font-size: 14px;
+        transform: translateY(10%);
+    }
+    /* MENU */
+    .menu-wrapper {
+        margin: 0 auto;
+        width: 98%;
+    }
+    .menu-h1 {
+        text-align: center;
+        padding-top: .5em;
+        padding-bottom: 2em;
+        color: white;
+        font-size: 25px;
+    }
+    /* .nav-menu {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 3.5%;
+    } */
+    .nav-menu-item {
+        cursor: pointer;
+    }
+    .menu-item-adj {
+        display: block !important;
+        margin-bottom: 2.5em;
+    }
+    .nav-menu-p {
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 10px;
+        line-height: .5em;
+        margin-top: .1em;
+        margin-bottom: 1em;
+    }
+    /* .add-1 {
+        margin-left: 1em;
+    }
+    .add-2 {
+        margin-left: .5em;
+    }
+    .add-3 {
+        margin-left: .5em;
+    }
+    .add-4 {
+        margin-left: .5em;
+    }
+    .add-5 {
+        margin-left: .5em;
+    }
+    .add-6 {
+        margin-left: 1.5em;
+    }
+    .nav-menu-hr {
+        width: 95%;
+        color: white;
+        height: 1px;
+        background-color: white;
+        border: none;
+    } */
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 2em;
+        width: 95%;
+        display: block;
+    }
+    .prectivated-starters {
+        display: block;
+    }
+    .menu-item {
+        display: flex;
+        margin-bottom: 1em;
+    }
+    .dish-text {
+        width: 18em;
+        margin-left: -1em;
+    }
+    .dish-price::before {
+        content: ".......................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+    }
+    .price-wine {
+        width: 31%;
+        margin-top: 16%;
+    }
+    .hr-wine-adj {
+        margin-top: .5em;
+    }
+    .price-lux-adj {
+        width: 45%;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 94%;
+    }
+    .total-price {
+        width: 95%;
+        font-size: 1.3em;
+        margin-top: -1.2em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .add-wrapper-mm {
+        column-gap: 5%;
+        margin-bottom: 2em;
+    }
+    .monthly-menu-item {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .monthly-dish-img {
+        width: 100%;
+        height: 15em;
+    }
+    .dish-price-m::before {
+        content: "..............................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        width: 32%;
+        font-size: 16px;
+        padding: 5px;
+        width: 36%;
+    }
+    /*Adjustments for dinamic main course*/
+    .menu-item-adj {
+        display: block !important;
+        margin-bottom: 2.5em;
+    }
+    .content-menu-wrapper-adj {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .dish-img-adj {
+        width: 100%;
+        height: 31vh;
+    }
+    .dish-text-adj {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .dish-name-adj {
+        margin-top: 1em !important;
+    }
+    .dish-name-adj-access {
+        font-size: 18px !important;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    /* HERO SECTION */
+    .hero-p {
+        font-size: 15px;
+    }
+    #see {
+        margin-top: 0;
+        top: 100%;
+        position: absolute;
+    }
+    /* MENU */
+    .menu-wrapper {
+        margin: 0 auto;
+        width: 96%;
+    }
+    .menu-h1 {
+        padding-top: .5em;
+        padding-bottom: 2em;
+        font-size: 22px;
+    }
+    /* .nav-menu {
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        gap: 2.4%;
+    }
+    .nav-menu-item {
+        cursor: pointer;
+    } */
+    .nav-menu-p {
+        font-family: sans-serif;
+        font-weight: bolder;
+        color: #fff;
+        font-size: 10px;
+        line-height: .5em;
+        margin-top: .1em;
+    }
+    /* .add-1 {
+        margin-left: 1em;
+    }
+    .add-2 {
+        margin-left: 0em;
+    }
+    .add-3 {
+        margin-left: .5em;
+    }
+    .add-4 {
+        margin-left: .5em;
+    }
+    .add-5 {
+        margin-left: .5em;
+    }
+    .add-6 {
+        margin-left: 1.5em;
+    }
+    .nav-menu-hr {
+        width: 100%;
+        height: 1px;
+    } */
+    /*  CONTENT MENU */
+    .content-menu-wrapper {
+        margin: 0 auto;
+        margin-top: 2em;
+        width: 100%;
+        display: block;
+    }
+    .dish-text {
+        width: 15em;
+        margin-left: -1em;
+    }
+    .dish-price-wrap {
+        display: flex;
+        margin-top: -.5em;
+    }
+    .dish-price {
+        font-size: 14px;
+    }
+    .dish-price::before {
+        content: "..................................................";
+    }
+    .price-wines-wrap {
+        width: 99%;
+    }
+    .price-wine {
+        width: 31%;
+        margin-top: 16%;
+    }
+    .hr-wine-adj {
+        margin-top: .5em;
+    }
+    .price-lux-adj {
+        width: 45%;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 96%;
+    }
+    .total-price {
+        width: 97%;
+        font-size: 1em;
+        margin-top: -2em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .monthly-dish-img {
+        width: 100%;
+        height: 14em;
+    }
+    .dish-price-m::before {
+        content: ".........................................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /*Adjustments for dinamic main course*/
+    .menu-item-adj {
+        display: block !important;
+        margin-bottom: 2.5em;
+    }
+    .content-menu-wrapper-adj {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .dish-img-adj {
+        width: 100%;
+        height: 31vh;
+    }
+    .dish-text-adj {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .dish-name-adj {
+        margin-top: 1em !important;
+    }
+    .dish-name-adj-access {
+        font-size: 18px !important;
+    }
+    .reserve-btn {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        font-size: 16px;
+        padding: 5px;
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 321px) {
+    /* HERO SECTION */
+    .hero-p {
+        font-size: 14px;
+    }
+    #see {
+        margin-top: 0;
+        top: 105%;
+        position: absolute;
+    }
+    /* MENU */
+    .menu-wrapper {
+        width: 98%;
+    }
+    .menu-h1 {
+        font-size: 20px;
+    }
+    .nav-menu-img {
+        height: 30px;
+    }
+    /* .nav-menu {
+        gap: 0%;
+    } */
+    .nav-menu-p {
+        font-size: 9px;
+        line-height: .3em;
+        margin-top: .1em;
+    }
+    /* .add-4 {
+        margin-left: .5em;
+    } */
+    /*  CONTENT MENU */
+    .menu-item {
+        display: flex;
+        margin-bottom: .5em;
+    }
+    .dish-text {
+        width: 14em;
+        margin-left: -1em;
+    }
+    .dish-price::before {
+        content: "........................................";
+    }
+    .price-wines-wrap {
+        width: 99%;
+    }
+    .price-wine {
+        width: 33%;
+        margin-top: 16%;
+    }
+    .hr-wine-adj {
+        margin-top: .5em;
+    }
+    .price-lux-adj {
+        width: 45%;
+    }
+    /* MONTHLY MENU */
+    .monthly-menu-wrapper {
+        width: 98%;
+    }
+    .total-price {
+        width: 97%;
+        font-size: 1em;
+        margin-top: -2em;
+    }
+    /* CONTENT MONTHLY MENU */
+    .monthly-dish-img {
+        width: 100%;
+        height: 12em;
+    }
+    .dish-price-m::before {
+        content: "..............................................";
+        font-family: sans-serif;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+    }
+    /* <!-- RESERVE BTN --> */
+    .reserve-btn {
+        margin: 0 auto;
+        margin-top: 2em;
+        margin-bottom: 4em;
+        width: 42%;
+        font-size: 14.5px;
+        padding: 4px;
+        width: 48%;
+    }
+    /*Adjustments for dinamic main course*/
+    .menu-item-adj {
+        display: block !important;
+        margin-bottom: 2.5em;
+    }
+    .content-menu-wrapper-adj {
+        width: 95%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .dish-img-adj {
+        width: 100%;
+        height: 31vh;
+    }
+    .dish-text-adj {
+        width: 100%;
+        margin-left: 0 !important;
+    }
+    .dish-name-adj {
+        margin-top: 1em !important;
+    }
+    .dish-name-adj-access {
+        font-size: 18px !important;
+    }
+}
